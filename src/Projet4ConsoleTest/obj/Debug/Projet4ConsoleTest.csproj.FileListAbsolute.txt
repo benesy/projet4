@@ -1,0 +1,6 @@
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.exe.config
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.exe
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.pdb
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.csprojAssemblyReference.cache
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.exe
+D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.pdb
