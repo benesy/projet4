@@ -16,9 +16,9 @@ namespace Projet4ConsoleTest
            }
             catch (Exception e)
            {
-                Console.WriteLine("Tu sais pas coder ! : {0}", e);
+                // test de commentaire
+                //Console.WriteLine("Tu sais pas coder ! : {0}", e);
             }
-            // test de git
 
         }
 
