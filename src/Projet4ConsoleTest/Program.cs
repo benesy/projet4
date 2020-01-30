@@ -17,7 +17,7 @@ namespace Projet4ConsoleTest
             catch (Exception e)
            {
                 // test de commentaire
-                //Console.WriteLine("Tu sais pas coder ! : {0}", e);
+                Console.WriteLine("Tu sais pas coder ! : {0}", e);
             }
 
         }
