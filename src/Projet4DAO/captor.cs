@@ -20,7 +20,7 @@ namespace Projet4DAO
             this.statement = new HashSet<statement>();
         }
     
-        public int id { get; set; }
+        public int captorId { get; set; }
         public string serial_number { get; set; }
         public string description { get; set; }
         public string localisation { get; set; }

@@ -11,13 +11,14 @@ namespace Projet4ConsoleTest
     {
         static void Main(string[] args)
         {
-            try {
+           try {
                 f1();
-            }
+           }
             catch (Exception e)
-            {
+           {
                 Console.WriteLine("Tu sais pas coder ! : {0}", e);
             }
+            
 
         }
 
@@ -26,9 +27,10 @@ namespace Projet4ConsoleTest
             projet4DAO ctx = new projet4DAO();
 
             captor c = new captor();
-            c.serial_number = "123457";
-            c.localisation = "hangar b";
-            c.description = "botte de radis";
+           
+            c.serial_number = "123454";
+            c.localisation = "hangar a";
+            c.description = "salade";
 
             ctx.captor.Add(c);
             ctx.SaveChanges();

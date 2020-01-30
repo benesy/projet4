@@ -4,21 +4,21 @@
     <EntitySetMapping Name="captor">
       <EntityTypeMapping TypeName="Model.captor">
         <MappingFragment StoreEntitySet="captor">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="serial_number" ColumnName="serial_number" />
-          <ScalarProperty Name="description" ColumnName="description" />
           <ScalarProperty Name="localisation" ColumnName="localisation" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="serial_number" ColumnName="serial_number" />
+          <ScalarProperty Name="captorId" ColumnName="captorId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="statement">
       <EntityTypeMapping TypeName="Model.statement">
         <MappingFragment StoreEntitySet="statement">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="temperature" ColumnName="temperature" />
-          <ScalarProperty Name="humidity" ColumnName="humidity" />
-          <ScalarProperty Name="dateTime" ColumnName="dateTime" />
           <ScalarProperty Name="captorId" ColumnName="captorId" />
+          <ScalarProperty Name="dateTime" ColumnName="dateTime" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="statementId" ColumnName="statementId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
