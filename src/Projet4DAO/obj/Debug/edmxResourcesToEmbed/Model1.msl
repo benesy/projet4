@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="projet4DAO">
+    <EntitySetMapping Name="captor">
+      <EntityTypeMapping TypeName="Model.captor">
+        <MappingFragment StoreEntitySet="captor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="serial_number" ColumnName="serial_number" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="localisation" ColumnName="localisation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="statement">
+      <EntityTypeMapping TypeName="Model.statement">
+        <MappingFragment StoreEntitySet="statement">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="temperature" ColumnName="temperature" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="dateTime" ColumnName="dateTime" />
+          <ScalarProperty Name="captorId" ColumnName="captorId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

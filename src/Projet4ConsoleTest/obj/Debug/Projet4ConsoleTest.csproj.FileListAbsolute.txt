@@ -4,3 +4,18 @@ D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.pdb
 D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.csprojAssemblyReference.cache
 D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.exe
 D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.exe.config
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.exe
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4ConsoleTest.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\EntityFramework.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4DAO.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4DAO.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4DAO.dll.config
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\EntityFramework.xml
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.csprojAssemblyReference.cache
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.csproj.CopyComplete
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.exe
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.pdb
