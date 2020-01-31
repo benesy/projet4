@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel>
+            <Frame x:Name="_mainwindows" Content="Frame" HorizontalAlignment="Left" Height="360" Margin="0,60,-0.4,0" VerticalAlignment="Top" Width="794"/>
+        </DockPanel>
+        <Button Content="Button" HorizontalAlignment="Left" Height="69" Margin="111,238,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click"/>
     </Grid>
 </Window>

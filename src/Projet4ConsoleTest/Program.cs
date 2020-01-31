@@ -23,18 +23,17 @@ namespace Projet4ConsoleTest
 
         }
 
-        static void f1()
+        static captor AddCaptor(string serial, string location, string description)
         {
             projet4DAO ctx = new projet4DAO();
-
             captor c = new captor();
 
-            c.serial_number = "123454";
-            c.localisation = "hangar a";
-            c.description = "salade";
-
+            c.serial_number = serial;
+            c.localisation = location;
+            c.description = description;
             ctx.captor.Add(c);
             ctx.SaveChanges();
+            return c;
         }
 
         static void ShowCaptors()
@@ -47,8 +46,6 @@ namespace Projet4ConsoleTest
             {
                 Console.WriteLine("{0} - {1} - {2} - {3}", c.captorId, c.serial_number, c.localisation, c.description);
             });
-
         }
-
     }
 }

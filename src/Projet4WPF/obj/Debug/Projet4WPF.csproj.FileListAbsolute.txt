@@ -12,3 +12,5 @@ D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.Properties.Resources.
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.csproj.GenerateResource.cache
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.exe
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.g.cs
