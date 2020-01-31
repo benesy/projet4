@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="54b316a76fe745d1a68862f3a1e037b1" Name="Diagram1">
         <EntityTypeShape EntityType="Model.captor" Width="1.5" PointX="0.75" PointY="1" />
-        <EntityTypeShape EntityType="Model.statement" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="Model.statement" Width="1.5" PointX="3.875" PointY="1.375" />
         <AssociationConnector Association="Model.FK_statement_captor" />
       </Diagram>
     </edmx:Diagrams>
