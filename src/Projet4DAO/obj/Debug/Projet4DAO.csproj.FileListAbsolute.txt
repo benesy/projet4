@@ -10,3 +10,15 @@ C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4DAO\obj\Debug\Pr
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.csproj.CopyComplete
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.dll
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\Projet4DAO.dll.config
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\EntityFramework.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\EntityFramework.SqlServer.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\EntityFramework.xml
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\EntityFramework.SqlServer.xml
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\fr\EntityFramework.resources.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.csprojAssemblyReference.cache
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.csproj.CopyComplete
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.pdb
