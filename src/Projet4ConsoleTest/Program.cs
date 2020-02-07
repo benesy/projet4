@@ -13,6 +13,8 @@ namespace Projet4ConsoleTest
     {
         static void Main(string[] args)
         {
+            ClearDb();
+
             projet4Entities ctx = new projet4Entities();
             MCaptor mc = new MCaptor();
             mc.Serial_number = "458";
@@ -43,6 +45,23 @@ namespace Projet4ConsoleTest
             }
 
             Console.ReadLine();
+        }
+
+        public static void ClearDb()
+        {
+            projet4Entities ctx = new projet4Entities();
+            List<captor> captorlist = ctx.captor.ToList();
+            List<statement> statementlist = ctx.statement.ToList();
+            foreach (captor c in captorlist)
+            {
+                ctx.captor.Remove(c);
+            }
+
+            foreach (statement s in statementlist)
+            {
+                ctx.statement.Remove(s);
+            }
+            ctx.SaveChanges();
         }
     }
 }

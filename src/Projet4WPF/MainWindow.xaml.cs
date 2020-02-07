@@ -1,4 +1,6 @@
-﻿using Projet4WPF.Pages;
+﻿
+using Projet4Metier;
+using Projet4WPF.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,13 +23,11 @@ namespace Projet4WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        public MCaptor captor;
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+            _mainwindows.Content = new Accueil(this);
         }
     }
 }
