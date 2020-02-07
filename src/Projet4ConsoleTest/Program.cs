@@ -13,11 +13,11 @@ namespace Projet4ConsoleTest
     {
         static void Main(string[] args)
         {
-            ClearDb();
+           // ClearDb();
 
             projet4Entities ctx = new projet4Entities();
             MCaptor mc = new MCaptor();
-            mc.Serial_number = "458";
+            mc.Serial_number = "459";
             mc.Localisation = "ici";
             mc.Description = "plop";
             captor cpt = mc.ConvertToDao();
@@ -28,7 +28,7 @@ namespace Projet4ConsoleTest
 
 
 
-            List<MStatement> mStatementslist = Import.ConvertFile(Import.ReadFile("C:\\Users\\charl_000\\Desktop\\PROJET 4 C#\\import\\Sourcedonnees.txt"));
+            List<MStatement> mStatementslist = Import.ConvertFile(Import.ReadFile("C:\\Users\\charl_000\\Desktop\\PROJET 4 C#\\import\\Sourcedonnees2.txt"));
 
             foreach (MStatement m in mStatementslist)
             {

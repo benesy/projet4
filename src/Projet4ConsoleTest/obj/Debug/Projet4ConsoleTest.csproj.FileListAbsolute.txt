@@ -31,3 +31,4 @@ D:\src\CESI\C#\projet4\src\Projet4ConsoleTest\obj\Debug\Projet4ConsoleTest.cspro
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4Metier.dll
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4Metier.pdb
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\Projet4Metier.dll.config
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4ConsoleTest\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
