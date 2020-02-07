@@ -15,8 +15,8 @@ namespace Projet4DAO
     public partial class statement
     {
         public int statementId { get; set; }
-        public int temperature { get; set; }
-        public int humidity { get; set; }
+        public double temperature { get; set; }
+        public double humidity { get; set; }
         public System.DateTime dateTime { get; set; }
         public int captorId { get; set; }
     

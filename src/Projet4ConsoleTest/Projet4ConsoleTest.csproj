@@ -62,6 +62,10 @@
       <Project>{3609C592-5F94-40AB-B72F-7A56875283F2}</Project>
       <Name>Projet4DAO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Projet4Metier\Projet4Metier.csproj">
+      <Project>{64C12403-8A54-4F92-8479-A43245375326}</Project>
+      <Name>Projet4Metier</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

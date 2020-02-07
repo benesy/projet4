@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using Projet4Metier;
 
 namespace Projet4ConsoleTest
 {
@@ -11,41 +13,36 @@ namespace Projet4ConsoleTest
     {
         static void Main(string[] args)
         {
-            try
+            projet4Entities ctx = new projet4Entities();
+            MCaptor mc = new MCaptor();
+            mc.Serial_number = "458";
+            mc.Localisation = "ici";
+            mc.Description = "plop";
+            captor cpt = mc.ConvertToDao();
+            ctx.captor.Add(cpt);
+          
+            //ctx.SaveChanges();
+            
+
+
+
+            List<MStatement> mStatementslist = Import.ConvertFile(Import.ReadFile("C:\\Users\\charl_000\\Desktop\\PROJET 4 C#\\import\\Sourcedonnees.txt"));
+
+            foreach (MStatement m in mStatementslist)
             {
-                ShowCaptors();
-                Console.ReadLine();
+                m.StatementId = cpt.captorId;
+                ctx.statement.Add(m.ConvertToDao());
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("Erreur ! : {0}", e);
-            }
-
-        }
-
-        static captor AddCaptor(string serial, string location, string description)
-        {
-            projet4DAO ctx = new projet4DAO();
-            captor c = new captor();
-
-            c.serial_number = serial;
-            c.localisation = location;
-            c.description = description;
-            ctx.captor.Add(c);
             ctx.SaveChanges();
-            return c;
-        }
+            Console.WriteLine("capteur : id {0} ajouté !", cpt.captorId);
 
-        static void ShowCaptors()
-        {
-            projet4DAO ctx = new projet4DAO();
-            List<captor> captorList;
-
-            captorList = ctx.captor.ToList();
-            captorList.ForEach(delegate (captor c)
+            List<statement> ls = ctx.statement.Where(c => c.captorId == cpt.captorId).ToList();
+            foreach (statement s in ls)
             {
-                Console.WriteLine("{0} - {1} - {2} - {3}", c.captorId, c.serial_number, c.localisation, c.description);
-            });
+                Console.WriteLine("Releve : {0} - {1} - {2} - {3} - {4}", s.captorId, s.statementId, s.humidity, s.temperature,s.dateTime);
+            }
+
+            Console.ReadLine();
         }
     }
 }

@@ -14,3 +14,10 @@ D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.exe
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.pdb
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.baml
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.g.cs
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.csprojAssemblyReference.cache
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\MainWindow.g.cs
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\App.g.cs
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF_MarkupCompile.cache
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF_MarkupCompile.lref
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.exe
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.pdb

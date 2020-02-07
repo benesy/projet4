@@ -13,10 +13,10 @@ namespace Projet4DAO
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class projet4DAO : DbContext
+    public partial class projet4Entities : DbContext
     {
-        public projet4DAO()
-            : base("name=projet4DAO")
+        public projet4Entities()
+            : base("name=projet4Entities")
         {
         }
     

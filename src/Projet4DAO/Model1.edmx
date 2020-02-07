@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="projet4Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="captor">
           <Key>
             <PropertyRef Name="captorId" />
@@ -19,8 +19,8 @@
             <PropertyRef Name="statementId" />
           </Key>
           <Property Name="statementId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="temperature" Type="int" Nullable="false" />
-          <Property Name="humidity" Type="int" Nullable="false" />
+          <Property Name="temperature" Type="float" Nullable="false" />
+          <Property Name="humidity" Type="float" Nullable="false" />
           <Property Name="dateTime" Type="datetime" Nullable="false" />
           <Property Name="captorId" Type="int" Nullable="false" />
         </EntityType>
@@ -36,7 +36,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="ModelStoreContainer">
+        <EntityContainer Name="projet4ModelStoreContainer">
           <EntitySet Name="captor" EntityType="Self.captor" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="statement" EntityType="Self.statement" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_statement_captor" Association="Self.FK_statement_captor">
@@ -44,42 +44,35 @@
             <End Role="statement" EntitySet="statement" />
           </AssociationSet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="projet4DAO" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="captor" EntityType="Model.captor" />
-          <EntitySet Name="statement" EntityType="Model.statement" />
-          <AssociationSet Name="FK_statement_captor" Association="Model.FK_statement_captor">
-            <End Role="captor" EntitySet="captor" />
-            <End Role="statement" EntitySet="statement" />
-          </AssociationSet>
-        </EntityContainer>
+      <Schema Namespace="projet4Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="captor">
           <Key>
             <PropertyRef Name="captorId" />
           </Key>
           <Property Name="captorId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="serial_number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="serial_number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
           <Property Name="localisation" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
-          <NavigationProperty Name="statement" Relationship="Model.FK_statement_captor" FromRole="captor" ToRole="statement" />
+          <NavigationProperty Name="statement" Relationship="Self.FK_statement_captor" FromRole="captor" ToRole="statement" />
         </EntityType>
         <EntityType Name="statement">
           <Key>
             <PropertyRef Name="statementId" />
           </Key>
           <Property Name="statementId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="temperature" Type="Int32" Nullable="false" />
-          <Property Name="humidity" Type="Int32" Nullable="false" />
+          <Property Name="temperature" Type="Double" Nullable="false" />
+          <Property Name="humidity" Type="Double" Nullable="false" />
           <Property Name="dateTime" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="captorId" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="captor" Relationship="Model.FK_statement_captor" FromRole="statement" ToRole="captor" />
+          <NavigationProperty Name="captor" Relationship="Self.FK_statement_captor" FromRole="statement" ToRole="captor" />
         </EntityType>
         <Association Name="FK_statement_captor">
-          <End Type="Model.captor" Role="captor" Multiplicity="1" />
-          <End Type="Model.statement" Role="statement" Multiplicity="*" />
+          <End Role="captor" Type="Self.captor" Multiplicity="1" />
+          <End Role="statement" Type="Self.statement" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="captor">
               <PropertyRef Name="captorId" />
@@ -89,30 +82,38 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityContainer Name="projet4Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="captor" EntityType="Self.captor" />
+          <EntitySet Name="statement" EntityType="Self.statement" />
+          <AssociationSet Name="FK_statement_captor" Association="Self.FK_statement_captor">
+            <End Role="captor" EntitySet="captor" />
+            <End Role="statement" EntitySet="statement" />
+          </AssociationSet>
+        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="projet4DAO">
+        <EntityContainerMapping StorageEntityContainer="projet4ModelStoreContainer" CdmEntityContainer="projet4Entities">
           <EntitySetMapping Name="captor">
-            <EntityTypeMapping TypeName="Model.captor">
+            <EntityTypeMapping TypeName="projet4Model.captor">
               <MappingFragment StoreEntitySet="captor">
-                <ScalarProperty Name="localisation" ColumnName="localisation" />
-                <ScalarProperty Name="description" ColumnName="description" />
-                <ScalarProperty Name="serial_number" ColumnName="serial_number" />
                 <ScalarProperty Name="captorId" ColumnName="captorId" />
+                <ScalarProperty Name="serial_number" ColumnName="serial_number" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="localisation" ColumnName="localisation" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="statement">
-            <EntityTypeMapping TypeName="Model.statement">
+            <EntityTypeMapping TypeName="projet4Model.statement">
               <MappingFragment StoreEntitySet="statement">
-                <ScalarProperty Name="captorId" ColumnName="captorId" />
-                <ScalarProperty Name="dateTime" ColumnName="dateTime" />
-                <ScalarProperty Name="humidity" ColumnName="humidity" />
-                <ScalarProperty Name="temperature" ColumnName="temperature" />
                 <ScalarProperty Name="statementId" ColumnName="statementId" />
+                <ScalarProperty Name="temperature" ColumnName="temperature" />
+                <ScalarProperty Name="humidity" ColumnName="humidity" />
+                <ScalarProperty Name="dateTime" ColumnName="dateTime" />
+                <ScalarProperty Name="captorId" ColumnName="captorId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
