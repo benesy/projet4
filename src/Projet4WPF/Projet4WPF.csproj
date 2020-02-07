@@ -85,6 +85,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\DataGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pages\Accueil.xaml.cs">
@@ -92,6 +96,9 @@
     </Compile>
     <Compile Include="Pages\Data.xaml.cs">
       <DependentUpon>Data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DataGrid.xaml.cs">
+      <DependentUpon>DataGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

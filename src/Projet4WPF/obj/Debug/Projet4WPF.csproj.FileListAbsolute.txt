@@ -43,3 +43,5 @@ C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\bin\Debug\En
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\Data.g.cs
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\Data.baml
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\DataGrid.g.cs
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\DataGrid.baml
