@@ -1,0 +1,16 @@
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\obj\Debug\Projet4Metier.csprojAssemblyReference.cache
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4Metier.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4Metier.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4DAO.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\EntityFramework.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4DAO.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4DAO.dll.config
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\EntityFramework.xml
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\obj\Debug\Projet4Metier.csproj.CopyComplete
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\obj\Debug\Projet4Metier.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\obj\Debug\Projet4Metier.pdb
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\Projet4Metier.dll.config
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4Metier\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
