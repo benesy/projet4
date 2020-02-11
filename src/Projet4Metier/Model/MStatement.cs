@@ -24,6 +24,7 @@ namespace Projet4Metier
             s.temperature = Temperature;
             s.humidity = Humidity;
             s.dateTime = DateTime;
+            s.captorId = CaptorId;
             return s;
         }
 
@@ -74,10 +75,10 @@ namespace Projet4Metier
         }
 
         // get by date //rajouter by id
-        public static List<MStatement> GetByDate(projet4Entities ctx, DateTime debut, DateTime fin)
+        public static List<MStatement> GetByDate(projet4Entities ctx, int id, DateTime debut, DateTime fin)
         {
             List<MStatement> ls = new List<MStatement>();
-            List<statement> l = ctx.statement.Where(s => s.dateTime >= debut && s.dateTime <= fin).ToList();
+            List<statement> l = ctx.statement.Where(s => s.captorId==id && s.dateTime >= debut && s.dateTime <= fin).ToList();
             foreach (statement s in l)
             {
                 MStatement ms = new MStatement();

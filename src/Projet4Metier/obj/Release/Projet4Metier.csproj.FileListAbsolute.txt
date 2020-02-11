@@ -1,0 +1,16 @@
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4Metier.dll.config
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4Metier.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4Metier.pdb
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\EntityFramework.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\EntityFramework.SqlServer.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\Projet4DAO.dll.config
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\EntityFramework.xml
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\EntityFramework.SqlServer.xml
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\fr\EntityFramework.resources.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\bin\Release\fr\EntityFramework.SqlServer.resources.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\obj\Release\Projet4Metier.csprojAssemblyReference.cache
+D:\src\CESI\C#\projet4\src\Projet4Metier\obj\Release\Projet4Metier.csproj.CopyComplete
+D:\src\CESI\C#\projet4\src\Projet4Metier\obj\Release\Projet4Metier.dll
+D:\src\CESI\C#\projet4\src\Projet4Metier\obj\Release\Projet4Metier.pdb

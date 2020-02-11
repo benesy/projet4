@@ -12,8 +12,6 @@ D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.Properties.Resources.
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.csproj.GenerateResource.cache
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.exe
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.pdb
-D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.baml
-D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\View1.g.cs
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.csprojAssemblyReference.cache
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\MainWindow.g.cs
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\App.g.cs
@@ -45,3 +43,34 @@ C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pa
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\Data.baml
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\DataGrid.g.cs
 C:\Users\charl_000\Desktop\PROJET 4 C#\gityo\projet4\src\Projet4WPF\obj\Debug\Pages\DataGrid.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\EntityFramework.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4Metier.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4Metier.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4Metier.dll.config
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\EntityFramework.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Projet4DAO.dll.config
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Accueil.g.cs
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Data.g.cs
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Accueil.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Data.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Projet4WPF.csproj.CopyComplete
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Graphique.g.cs
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\Graphique.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\InteractiveDataDisplay.WPF.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.Wpf.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\System.Reactive.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\InteractiveDataDisplay.WPF.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.Wpf.pdb
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\LiveCharts.Wpf.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\System.Reactive.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\ImportPage.g.cs
+D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\ImportPage.baml

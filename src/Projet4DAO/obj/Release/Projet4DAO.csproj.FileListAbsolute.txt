@@ -1,0 +1,13 @@
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\Projet4DAO.dll.config
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\EntityFramework.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\EntityFramework.SqlServer.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\EntityFramework.xml
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\EntityFramework.SqlServer.xml
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\fr\EntityFramework.resources.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Release\fr\EntityFramework.SqlServer.resources.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Release\Projet4DAO.csprojAssemblyReference.cache
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Release\Projet4DAO.csproj.CopyComplete
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Release\Projet4DAO.dll
+D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Release\Projet4DAO.pdb

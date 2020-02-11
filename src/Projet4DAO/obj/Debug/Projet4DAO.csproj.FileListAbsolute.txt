@@ -22,3 +22,4 @@ D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.csprojAssemblyReferen
 D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.csproj.CopyComplete
 D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.dll
 D:\src\CESI\C#\projet4\src\Projet4DAO\obj\Debug\Projet4DAO.pdb
+D:\src\CESI\C#\projet4\src\Projet4DAO\bin\Debug\fr\EntityFramework.SqlServer.resources.dll

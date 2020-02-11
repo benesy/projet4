@@ -24,6 +24,7 @@ namespace Projet4WPF
     public partial class MainWindow : Window
     {
         public MCaptor captor;
+        public string filename;
         public MainWindow()
         {
             InitializeComponent();

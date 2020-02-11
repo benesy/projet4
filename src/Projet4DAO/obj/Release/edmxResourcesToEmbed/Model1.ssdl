@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="projet4Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="captor">
+    <Key>
+      <PropertyRef Name="captorId" />
+    </Key>
+    <Property Name="captorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="serial_number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="250" />
+    <Property Name="localisation" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="statement">
+    <Key>
+      <PropertyRef Name="statementId" />
+    </Key>
+    <Property Name="statementId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="temperature" Type="float" Nullable="false" />
+    <Property Name="humidity" Type="float" Nullable="false" />
+    <Property Name="dateTime" Type="datetime" Nullable="false" />
+    <Property Name="captorId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_statement_captor">
+    <End Role="captor" Type="Self.captor" Multiplicity="1" />
+    <End Role="statement" Type="Self.statement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="captor">
+        <PropertyRef Name="captorId" />
+      </Principal>
+      <Dependent Role="statement">
+        <PropertyRef Name="captorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="projet4ModelStoreContainer">
+    <EntitySet Name="captor" EntityType="Self.captor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="statement" EntityType="Self.statement" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_statement_captor" Association="Self.FK_statement_captor">
+      <End Role="captor" EntitySet="captor" />
+      <End Role="statement" EntitySet="statement" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

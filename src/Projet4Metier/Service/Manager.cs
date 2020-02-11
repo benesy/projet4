@@ -32,5 +32,9 @@ namespace Projet4Metier.Service
         {
             return MStatement.GetAllByCaptorId(ctx, c.CaptorId);
         }
+        public List<MStatement> GetAllStatementByDate(MCaptor c, DateTime start, DateTime end)
+        {
+            return MStatement.GetByDate(ctx, c.CaptorId, start, end);
+        }
     }
 }

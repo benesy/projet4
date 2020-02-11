@@ -13,7 +13,7 @@ namespace Projet4ConsoleTest
     {
         static void Main(string[] args)
         {
-           // ClearDb();
+            ClearDb();
 
             projet4Entities ctx = new projet4Entities();
             MCaptor mc = new MCaptor();
@@ -21,29 +21,9 @@ namespace Projet4ConsoleTest
             mc.Localisation = "ici";
             mc.Description = "plop";
             captor cpt = mc.ConvertToDao();
-            ctx.captor.Add(cpt);
-          
-            //ctx.SaveChanges();
-            
-
-
-
-            List<MStatement> mStatementslist = Import.ConvertFile(Import.ReadFile("C:\\Users\\charl_000\\Desktop\\PROJET 4 C#\\import\\Sourcedonnees2.txt"));
-
-            foreach (MStatement m in mStatementslist)
-            {
-                m.StatementId = cpt.captorId;
-                ctx.statement.Add(m.ConvertToDao());
-            }
+            ctx.captor.Add(cpt);        
             ctx.SaveChanges();
             Console.WriteLine("capteur : id {0} ajouté !", cpt.captorId);
-
-            List<statement> ls = ctx.statement.Where(c => c.captorId == cpt.captorId).ToList();
-            foreach (statement s in ls)
-            {
-                Console.WriteLine("Releve : {0} - {1} - {2} - {3} - {4}", s.captorId, s.statementId, s.humidity, s.temperature,s.dateTime);
-            }
-
             Console.ReadLine();
         }
 
