@@ -12,14 +12,9 @@
     <Grid>
         <Menu>
             <MenuItem Header=" Accueil" Click="GoToAccueil"/>
-            <MenuItem Header=" Importer"/>
+            <MenuItem Header=" Importer" Click="Import" />
             <MenuItem Header=" Tableau de données" Click="GoToData"/>
             <MenuItem Header=" Graphique" />
-            <MenuItem Header=" Exporter">
-                <MenuItem Header="CSV"/>
-                <MenuItem Header="Mail"/>
-                <MenuItem Header="PDF"/>
-            </MenuItem>
         </Menu>
         <Grid Margin="10,0,10,266" Height="130" VerticalAlignment="Bottom">
             <Grid.ColumnDefinitions>

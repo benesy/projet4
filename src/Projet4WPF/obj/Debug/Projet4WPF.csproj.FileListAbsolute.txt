@@ -74,3 +74,10 @@ D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Microsoft.Maps.MapControl.WPF.xm
 D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\System.Reactive.xml
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\ImportPage.g.cs
 D:\src\CESI\C#\projet4\src\Projet4WPF\obj\Debug\Pages\ImportPage.baml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\itextsharp.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Spire.License.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Spire.Pdf.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Microsoft.mshtml.dll
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\itextsharp.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Spire.License.xml
+D:\src\CESI\C#\projet4\src\Projet4WPF\bin\Debug\Spire.Pdf.xml

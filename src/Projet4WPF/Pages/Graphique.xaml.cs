@@ -70,7 +70,7 @@ namespace Projet4WPF.Pages
                         end = ms.DateTime;
                 }
             }
-           Formatter = value => new DateTime((long)value).ToShortDateString() + " " + new DateTime((long)value).ToLongTimeString();
+            Formatter = value => new DateTime((long)value).ToShortDateString() + " " + new DateTime((long)value).ToLongTimeString();
             graph.Series = sc;
             DataContext = this;
             capteurSN.Text = mainWindow.captor.Serial_number.ToString();
@@ -99,7 +99,7 @@ namespace Projet4WPF.Pages
 
             foreach (MStatement ms in lms)
             {
-                DateModel tempModel = new DateModel() {DateTime = ms.DateTime, Value = ms.Temperature };
+                DateModel tempModel = new DateModel() { DateTime = ms.DateTime, Value = ms.Temperature };
                 DateModel humidityModel = new DateModel() { DateTime = ms.DateTime, Value = ms.Humidity };
                 Console.WriteLine(ms.DateTime.ToLongTimeString());
                 temp.Values.Add(tempModel);
@@ -118,22 +118,22 @@ namespace Projet4WPF.Pages
                         end = ms.DateTime;
                 }
             }
-            Formatter = value => new DateTime((long)value).ToShortDateString() + " " +new DateTime((long)value).ToLongTimeString();
+            Formatter = value => new DateTime((long)value).ToShortDateString() + " " + new DateTime((long)value).ToLongTimeString();
             graph.Series = sc;
             DataContext = this;
             capteurSN.Text = mainWindow.captor.Serial_number.ToString();
             nbrEntries.Text = lms.Count().ToString();
- /*                       debut.SelectedDate = start;
-                        fin.SelectedDate = end;
-                        debut.DisplayDate = start;
-                        fin.DisplayDate = end;
-                        debut.DisplayDateStart = start;
-                        debut.DisplayDateEnd = end;
-                        fin.DisplayDateStart = start;
-                        fin.DisplayDateEnd = end;
-                        debut.Text = start.ToString();
-                        fin.Text = end.ToString();
-            */
+            /*                       debut.SelectedDate = start;
+                                   fin.SelectedDate = end;
+                                   debut.DisplayDate = start;
+                                   fin.DisplayDate = end;
+                                   debut.DisplayDateStart = start;
+                                   debut.DisplayDateEnd = end;
+                                   fin.DisplayDateStart = start;
+                                   fin.DisplayDateEnd = end;
+                                   debut.Text = start.ToString();
+                                   fin.Text = end.ToString();
+                       */
         }
         public Graphique(MainWindow mw)
         {
@@ -161,7 +161,11 @@ namespace Projet4WPF.Pages
         {
             mainWindow._mainwindows.Content = new Data(mainWindow);
         }
+        public void Import(object sender, RoutedEventArgs e)
+        {
+            mainWindow._mainwindows.Content = new ImportPage(mainWindow);
 
+        }
     }
     public class DateModel
     {

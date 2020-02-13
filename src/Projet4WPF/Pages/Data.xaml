@@ -14,9 +14,8 @@
             <MenuItem Header=" Tableau de données"/>
             <MenuItem Header=" Graphique" Click="GoToGraphique"/>
             <MenuItem Header=" Exporter">
-                <MenuItem Header="CSV"/>
-                <MenuItem Header="Mail"/>
-                <MenuItem Header="PDF"/>
+                <MenuItem Header="CSV" Click="CSVExport"/>
+                <MenuItem Header="PDF" Click="PDFExport"/>
             </MenuItem>
         </Menu>
         <Grid Margin="10,0,10,266" Height="130" VerticalAlignment="Bottom">

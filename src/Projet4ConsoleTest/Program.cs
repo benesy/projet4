@@ -17,7 +17,7 @@ namespace Projet4ConsoleTest
 
             projet4Entities ctx = new projet4Entities();
             MCaptor mc = new MCaptor();
-            mc.Serial_number = "459";
+            mc.Serial_number = "482";
             mc.Localisation = "ici";
             mc.Description = "plop";
             captor cpt = mc.ConvertToDao();
